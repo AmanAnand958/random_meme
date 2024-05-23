@@ -1,6 +1,6 @@
 {
   "homepage":"https://AmanAnand958.github.io/random
-_meme"
+_meme",
 
   "name": "random-gif",
   "version": "0.1.0",
@@ -15,6 +15,7 @@ _meme"
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
